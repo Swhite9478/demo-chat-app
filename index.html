@@ -86,6 +86,10 @@
                 color:white
             }
 
+            #someone-typing {
+                float: left;
+            }
+
         </style>
     </head>
     <body>
@@ -93,6 +97,8 @@
             <div id="messages">
             </div>
             <form id="send-container">
+                <p id="someone-typing" class="split left"></p>
+                <br>
                 <input type="text" id="message-input">
                 <button type="submit" id="send-button">Send</button>
             </form>
